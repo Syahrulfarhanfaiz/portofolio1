@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | SYAHRUL FARHAN</title>
+    
+    <!-- Google Fonts - Orbitron (futuristic) & Space Mono (monospace) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Portofolio</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <!-- Theme Toggle Button -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                <span class="toggle-icon sun">☀️</span>
+                <span class="toggle-icon moon">🌙</span>
+            </button>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO / HOME SECTION ===== -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <p class="hero-greeting animate-fade-in">Hello, I'm</p>
+                <h1 class="hero-name animate-fade-in">
+                    <span class="name-glow">SYAHRUL FARHAN</span>
+                </h1>
+                <p class="hero-title animate-fade-in">Information Systems Student</p>
+                <p class="hero-bio animate-fade-in">
+                    "Just an Information Systems student enjoying vibe coding and experimenting with ideas."
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#about" class="btn btn-primary">
+                        <span class="btn-text">About Me</span>
+                        <span class="btn-glow"></span>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span class="btn-text">My Projects</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span class="btn-text">Contact</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Hero Photo Card -->
+            <div class="hero-photo-card animate-slide-up">
+                <div class="photo-frame">
+                    <div class="photo-glow"></div>
+                    <!-- Replace 'your-photo.jpg' with your actual photo -->
+                    <img src="GAMBAR FARHAN.jpeg" 
+                         alt="Profile Photo" 
+                         class="photo-img"
+                         id="heroPhoto">
+                    <div class="photo-border"></div>
+                    <div class="photo-corners">
+                        <span class="corner top-left"></span>
+                        <span class="corner top-right"></span>
+                        <span class="corner bottom-left"></span>
+                        <span class="corner bottom-right"></span>
+                    </div>
+                </div>
+                <div class="photo-label">
+                    <span class="status-dot"></span>
+                    Available for opportunities
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll Down</span>
+            <span class="scroll-arrow">▼</span>
+        </div>
+        
+        <!-- Background Effects -->
+        <div class="hero-bg-effects">
+            <div class="grid-overlay"></div>
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ME SECTION ===== -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-content">
+                <!-- About Photo Card -->
+                <div class="about-photo-card animate-on-scroll">
+                    <div class="photo-frame large">
+                        <div class="photo-glow"></div>
+                        <!-- Replace with your photo -->
+                        <img src="WhatsApp Image 2025-05-29 at 16.31.25.jpeg" 
+                             alt="About Photo" 
+                             class="photo-img"
+                             id="aboutPhoto">
+                        <div class="photo-border"></div>
+                        <div class="photo-scanline"></div>
+                    </div>
+                    <div class="photo-stats">
+                        <div class="stat">
+                            <span class="stat-value">2+</span>
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">3</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- About Text -->
+                <div class="about-text animate-on-scroll">
+                    <h3 class="about-subtitle">
+                        <span class="highlight">Information Systems</span> Student
+                    </h3>
+                    <p class="about-description">
+                        Hi there! I'm a passionate Information Systems student who loves exploring the intersection of technology and creativity. My journey in tech started with curiosity and has evolved into a genuine passion for building things that matter.
+                    </p>
+                    <p class="about-description">
+                        I enjoy <span class="highlight">vibe coding</span> — the kind where you put on some music, get into the flow, and let ideas come to life through code. Whether it's experimenting with new frameworks, building fun side projects, or learning about emerging technologies, I'm always eager to expand my horizons.
+                    </p>
+                    <p class="about-description">
+                        Currently focusing on web development and exploring various technologies to find what resonates with me the most. I believe in learning by doing and sharing knowledge with others.
+                    </p>
+                    
+                    <!-- Quick Info -->
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <span class="info-text">Indonesia</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎓</span>
+                            <span class="info-text">Information Systems</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">💻</span>
+                            <span class="info-text">Web Development Enthusiast</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎮</span>
+                            <span class="info-text">Tech Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <span class="section-tag closing">&lt;/about&gt;</span>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">My Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/yourusername/project1" target="_blank" class="project-link">
+                                View Code →
+                            </a>
+                        </div>
+                        <div class="project-number">01</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Dashboard</h3>
+                        <p class="project-description">
+                            A responsive admin dashboard for managing products, orders, and customer data with real-time analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MongoDB</span>
+                        </div>
+                        <a href="https://github.com/yourusername/project1" target="_blank" class="project-github">
+                            <span class="github-icon">⬡</span> GitHub
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Project Card 2 -->
+                <article class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/yourusername/project2" target="_blank" class="project-link">
+                                View Code →
+                            </a>
+                        </div>
+                        <div class="project-number">02</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            A productivity app with drag-and-drop functionality, task categories, and deadline reminders.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Vue.js</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">Tailwind</span>
+                        </div>
+                        <a href="https://github.com/yourusername/project2" target="_blank" class="project-github">
+                            <span class="github-icon">⬡</span> GitHub
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Project Card 3 -->
+                <article class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/yourusername/project3" target="_blank" class="project-link">
+                                View Code →
+                            </a>
+                        </div>
+                        <div class="project-number">03</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Forecast App</h3>
+                        <p class="project-description">
+                            Real-time weather application with location detection, 7-day forecast, and beautiful UI animations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">API</span>
+                            <span class="tech-badge">CSS3</span>
+                        </div>
+                        <a href="https://github.com/yourusername/project3" target="_blank" class="project-github">
+                            <span class="github-icon">⬡</span> GitHub
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Project Card 4 -->
+                <article class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/yourusername/project4" target="_blank" class="project-link">
+                                View Code →
+                            </a>
+                        </div>
+                        <div class="project-number">04</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">
+                            A game-themed personal portfolio with dark/light mode, smooth animations, and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/yourusername/project4" target="_blank" class="project-github">
+                            <span class="github-icon">⬡</span> GitHub
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <span class="section-tag closing">&lt;/projects&gt;</span>
+        </div>
+    </section>
+
+     <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">My Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <!-- Skills Grid -->
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <span class="category-icon">🎨</span>
+                        Frontend
+                    </h3>
+                    <div class="skills-badges">
+                        <span class="skill-badge" data-level="advanced">HTML5</span>
+                        <span class="skill-badge" data-level="advanced">CSS3</span>
+                        <span class="skill-badge" data-level="intermediate">JavaScript</span>
+                        <span class="skill-badge" data-level="intermediate">React</span>
+                        <span class="skill-badge" data-level="beginner">Vue.js</span>
+                        <span class="skill-badge" data-level="intermediate">Tailwind CSS</span>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <span class="category-icon">⚙️</span>
+                        Backend
+                    </h3>
+                    <div class="skills-badges">
+                        <span class="skill-badge" data-level="intermediate">Node.js</span>
+                        <span class="skill-badge" data-level="beginner">Express</span>
+                        <span class="skill-badge" data-level="intermediate">PHP</span>
+                        <span class="skill-badge" data-level="beginner">Python</span>
+                    </div>
+                </div>
+                
+                <!-- Database Skills -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <span class="category-icon">🗄️</span>
+                        Database
+                    </h3>
+                    <div class="skills-badges">
+                        <span class="skill-badge" data-level="intermediate">MySQL</span>
+                        <span class="skill-badge" data-level="beginner">MongoDB</span>
+                        <span class="skill-badge" data-level="beginner">Firebase</span>
+                    </div>
+                </div>
+                
+                <!-- Tools & Others -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="category-title">
+                        <span class="category-icon">🛠️</span>
+                        Tools & Others
+                    </h3>
+                    <div class="skills-badges">
+                        <span class="skill-badge" data-level="intermediate">Git</span>
+                        <span class="skill-badge" data-level="intermediate">GitHub</span>
+                        <span class="skill-badge" data-level="intermediate">VS Code</span>
+                        <span class="skill-badge" data-level="beginner">Figma</span>
+                        <span class="skill-badge" data-level="beginner">Linux</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skill Level Legend -->
+            <div class="skill-legend animate-on-scroll">
+                <span class="legend-item">
+                    <span class="legend-dot advanced"></span> Advanced
+                </span>
+                <span class="legend-item">
+                    <span class="legend-dot intermediate"></span> Intermediate
+                </span>
+                <span class="legend-item">
+                    <span class="legend-dot beginner"></span> Learning
+                </span>
+            </div>
+            
+            <span class="section-tag closing">&lt;/skills&gt;</span>
+        </div>
+    </section>
+
+<!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-tag">&lt;contact&gt;</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="contact-content">
+                <p class="contact-intro animate-on-scroll">
+                    I'm always open to discussing new opportunities, interesting projects, or just having a friendly chat about technology!
+                </p>
+                
+                <!-- Contact Cards -->
+                <div class="contact-cards">
+                    <!-- Email Card -->
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sahrulfarhan052@gmail.com" class="contact-card animate-on-scroll">
+                         <div class="card-icon">📧</div>
+                         <h3 class="card-title">Email</h3>
+                         <p class="card-value">sahrulfarhan052@gmail.com</p>
+                         <span class="card-action">Send a message →</span>
+                    </a>
+                    
+                    <!-- GitHub Card -->
+                    <a href="https://github.com/Syahrulfarhanfaiz" target="_blank" class="contact-card animate-on-scroll">
+                        <div class="card-icon">⬡</div>
+                        <h3 class="card-title">GitHub</h3>
+                        <p class="card-value">@Syahrulfarhanfaiz</p>
+                        <span class="card-action">View profile →</span>
+                    </a>
+                    
+                    <!-- LinkedIn Card -->
+                    <a href="https://www.linkedin.com/in/syahrul-farhan-51488a275/" target="_blank" class="contact-card animate-on-scroll">
+                        <div class="card-icon">💼</div>
+                        <h3 class="card-title">LinkedIn</h3>
+                        <p class="card-value">Syahrul Farhan</p>
+                        <span class="card-action">Connect →</span>
+                    </a>
+
+                </div>
+                
+                <!-- CTA -->
+                <div class="contact-cta animate-on-scroll">
+                    <p>Let's create something amazing together!</p>
+                    <a href="https://wa.me/6282181896347?text=Hi%20Syahrul,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" class="btn btn-primary btn-large">
+                    <span class="btn-text">Say Hello 👋</span>
+                    <span class="btn-glow"></span>
+                    </a>
+                </div>
+
+            
+            <span class="section-tag closing">&lt;/contact&gt;</span>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+    <div class="footer-container">
+        <p class="footer-text">
+            Built and maintained by <span class="footer-name">Syahrul Farhan</span>
+        </p>
+        <p class="footer-copyright">
+            © 2026 Syahrul Farhan. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
